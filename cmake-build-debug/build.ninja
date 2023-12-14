@@ -108,6 +108,37 @@ build Array: CXX_EXECUTABLE_LINKER__Array_Debug CMakeFiles/Array.dir/Array.cpp.o
   TARGET_FILE = Array
   TARGET_PDB = Array.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Target
+
+
+#############################################
+# Order-only phony target for Target
+
+build cmake_object_order_depends_target_Target: phony || CMakeFiles/Target.dir
+
+build CMakeFiles/Target.dir/Test.cpp.o: CXX_COMPILER__Target_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Test.cpp || cmake_object_order_depends_target_Target
+  DEP_FILE = CMakeFiles/Target.dir/Test.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Target.dir
+  OBJECT_FILE_DIR = CMakeFiles/Target.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Target
+
+
+#############################################
+# Link the executable Target
+
+build Target: CXX_EXECUTABLE_LINKER__Target_Debug CMakeFiles/Target.dir/Test.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/Target.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Target
+  TARGET_PDB = Target.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -142,7 +173,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aravinth/Documents/CPP_Programs/cmake-build-debug
 
-build all: phony CPP_Programs Array
+build all: phony CPP_Programs Array Target
 
 # =============================================================================
 # Built-in targets

@@ -7,3 +7,4 @@ add_executable(CPP_Programs main.cpp
         Array.cpp)
 add_executable(Array Array.cpp
         Array.cpp)
+add_executable(Target Test.cpp)
