@@ -13,7 +13,7 @@ int main()
     int arr[3];
 
     // Inserting elements in an array
-    arr[0] = 10;
+    arr[0] = 100;
     arr[1] = 20;
     arr[2] = 30;
 
