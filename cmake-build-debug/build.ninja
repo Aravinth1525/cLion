@@ -55,12 +55,6 @@ build CMakeFiles/CPP_Programs.dir/main.cpp.o: CXX_COMPILER__CPP_Programs_unscann
   OBJECT_DIR = CMakeFiles/CPP_Programs.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_Programs.dir
 
-build CMakeFiles/CPP_Programs.dir/Array.cpp.o: CXX_COMPILER__CPP_Programs_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Array.cpp || cmake_object_order_depends_target_CPP_Programs
-  DEP_FILE = CMakeFiles/CPP_Programs.dir/Array.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/CPP_Programs.dir
-  OBJECT_FILE_DIR = CMakeFiles/CPP_Programs.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPP_Programs
@@ -69,7 +63,7 @@ build CMakeFiles/CPP_Programs.dir/Array.cpp.o: CXX_COMPILER__CPP_Programs_unscan
 #############################################
 # Link the executable CPP_Programs
 
-build CPP_Programs: CXX_EXECUTABLE_LINKER__CPP_Programs_Debug CMakeFiles/CPP_Programs.dir/main.cpp.o CMakeFiles/CPP_Programs.dir/Array.cpp.o
+build CPP_Programs: CXX_EXECUTABLE_LINKER__CPP_Programs_Debug CMakeFiles/CPP_Programs.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/CPP_Programs.dir
   POST_BUILD = :
@@ -108,6 +102,68 @@ build Array: CXX_EXECUTABLE_LINKER__Array_Debug CMakeFiles/Array.dir/Array.cpp.o
   TARGET_FILE = Array
   TARGET_PDB = Array.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Praveen
+
+
+#############################################
+# Order-only phony target for Praveen
+
+build cmake_object_order_depends_target_Praveen: phony || CMakeFiles/Praveen.dir
+
+build CMakeFiles/Praveen.dir/Praveen.cpp.o: CXX_COMPILER__Praveen_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Praveen.cpp || cmake_object_order_depends_target_Praveen
+  DEP_FILE = CMakeFiles/Praveen.dir/Praveen.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Praveen.dir
+  OBJECT_FILE_DIR = CMakeFiles/Praveen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Praveen
+
+
+#############################################
+# Link the executable Praveen
+
+build Praveen: CXX_EXECUTABLE_LINKER__Praveen_Debug CMakeFiles/Praveen.dir/Praveen.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/Praveen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Praveen
+  TARGET_PDB = Praveen.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Recursion
+
+
+#############################################
+# Order-only phony target for Recursion
+
+build cmake_object_order_depends_target_Recursion: phony || CMakeFiles/Recursion.dir
+
+build CMakeFiles/Recursion.dir/Recursion.cpp.o: CXX_COMPILER__Recursion_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Recursion.cpp || cmake_object_order_depends_target_Recursion
+  DEP_FILE = CMakeFiles/Recursion.dir/Recursion.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Recursion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Recursion
+
+
+#############################################
+# Link the executable Recursion
+
+build Recursion: CXX_EXECUTABLE_LINKER__Recursion_Debug CMakeFiles/Recursion.dir/Recursion.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/Recursion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Recursion
+  TARGET_PDB = Recursion.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -142,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aravinth/Documents/CPP_Programs/cmake-build-debug
 
-build all: phony CPP_Programs Array
+build all: phony CPP_Programs Array Praveen Recursion
 
 # =============================================================================
 # Built-in targets
