@@ -1,6 +1,14 @@
 /Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/CPP_Programs.dir
 /Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Array.dir
-/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Praveen.dir
 /Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Recursion.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Hanoi.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/SumOfDigits.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Largest.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Sorted.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/Reverse.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/binarySearch.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/test_bin.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/BinarySearchRecursion.dir
+/Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/SquareRoot.dir
 /Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/aravinth/Documents/CPP_Programs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

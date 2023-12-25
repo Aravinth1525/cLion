@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_CPP_Programs: phony || CMakeFiles/CPP_Pr
 
 build CMakeFiles/CPP_Programs.dir/main.cpp.o: CXX_COMPILER__CPP_Programs_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/main.cpp || cmake_object_order_depends_target_CPP_Programs
   DEP_FILE = CMakeFiles/CPP_Programs.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CPP_Programs.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_Programs.dir
 
@@ -64,7 +64,7 @@ build CMakeFiles/CPP_Programs.dir/main.cpp.o: CXX_COMPILER__CPP_Programs_unscann
 # Link the executable CPP_Programs
 
 build CPP_Programs: CXX_EXECUTABLE_LINKER__CPP_Programs_Debug CMakeFiles/CPP_Programs.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/CPP_Programs.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_Array: phony || CMakeFiles/Array.dir
 
 build CMakeFiles/Array.dir/Array.cpp.o: CXX_COMPILER__Array_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Array.cpp || cmake_object_order_depends_target_Array
   DEP_FILE = CMakeFiles/Array.dir/Array.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Array.dir
   OBJECT_FILE_DIR = CMakeFiles/Array.dir
 
@@ -95,43 +95,12 @@ build CMakeFiles/Array.dir/Array.cpp.o: CXX_COMPILER__Array_unscanned_Debug /Use
 # Link the executable Array
 
 build Array: CXX_EXECUTABLE_LINKER__Array_Debug CMakeFiles/Array.dir/Array.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/Array.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = Array
   TARGET_PDB = Array.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Praveen
-
-
-#############################################
-# Order-only phony target for Praveen
-
-build cmake_object_order_depends_target_Praveen: phony || CMakeFiles/Praveen.dir
-
-build CMakeFiles/Praveen.dir/Praveen.cpp.o: CXX_COMPILER__Praveen_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Praveen.cpp || cmake_object_order_depends_target_Praveen
-  DEP_FILE = CMakeFiles/Praveen.dir/Praveen.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Praveen.dir
-  OBJECT_FILE_DIR = CMakeFiles/Praveen.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Praveen
-
-
-#############################################
-# Link the executable Praveen
-
-build Praveen: CXX_EXECUTABLE_LINKER__Praveen_Debug CMakeFiles/Praveen.dir/Praveen.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/Praveen.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Praveen
-  TARGET_PDB = Praveen.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Recursion
@@ -144,7 +113,7 @@ build cmake_object_order_depends_target_Recursion: phony || CMakeFiles/Recursion
 
 build CMakeFiles/Recursion.dir/Recursion.cpp.o: CXX_COMPILER__Recursion_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Recursion.cpp || cmake_object_order_depends_target_Recursion
   DEP_FILE = CMakeFiles/Recursion.dir/Recursion.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Recursion.dir
   OBJECT_FILE_DIR = CMakeFiles/Recursion.dir
 
@@ -157,12 +126,291 @@ build CMakeFiles/Recursion.dir/Recursion.cpp.o: CXX_COMPILER__Recursion_unscanne
 # Link the executable Recursion
 
 build Recursion: CXX_EXECUTABLE_LINKER__Recursion_Debug CMakeFiles/Recursion.dir/Recursion.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/Recursion.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = Recursion
   TARGET_PDB = Recursion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Hanoi
+
+
+#############################################
+# Order-only phony target for Hanoi
+
+build cmake_object_order_depends_target_Hanoi: phony || CMakeFiles/Hanoi.dir
+
+build CMakeFiles/Hanoi.dir/Recursion/towerOfHanoi.cpp.o: CXX_COMPILER__Hanoi_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Recursion/towerOfHanoi.cpp || cmake_object_order_depends_target_Hanoi
+  DEP_FILE = CMakeFiles/Hanoi.dir/Recursion/towerOfHanoi.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Hanoi.dir
+  OBJECT_FILE_DIR = CMakeFiles/Hanoi.dir/Recursion
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Hanoi
+
+
+#############################################
+# Link the executable Hanoi
+
+build Hanoi: CXX_EXECUTABLE_LINKER__Hanoi_Debug CMakeFiles/Hanoi.dir/Recursion/towerOfHanoi.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Hanoi.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Hanoi
+  TARGET_PDB = Hanoi.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SumOfDigits
+
+
+#############################################
+# Order-only phony target for SumOfDigits
+
+build cmake_object_order_depends_target_SumOfDigits: phony || CMakeFiles/SumOfDigits.dir
+
+build CMakeFiles/SumOfDigits.dir/Recursion/SumOfDigits.cpp.o: CXX_COMPILER__SumOfDigits_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Recursion/SumOfDigits.cpp || cmake_object_order_depends_target_SumOfDigits
+  DEP_FILE = CMakeFiles/SumOfDigits.dir/Recursion/SumOfDigits.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SumOfDigits.dir
+  OBJECT_FILE_DIR = CMakeFiles/SumOfDigits.dir/Recursion
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SumOfDigits
+
+
+#############################################
+# Link the executable SumOfDigits
+
+build SumOfDigits: CXX_EXECUTABLE_LINKER__SumOfDigits_Debug CMakeFiles/SumOfDigits.dir/Recursion/SumOfDigits.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/SumOfDigits.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SumOfDigits
+  TARGET_PDB = SumOfDigits.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Largest
+
+
+#############################################
+# Order-only phony target for Largest
+
+build cmake_object_order_depends_target_Largest: phony || CMakeFiles/Largest.dir
+
+build CMakeFiles/Largest.dir/Array/largestElement.cpp.o: CXX_COMPILER__Largest_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Array/largestElement.cpp || cmake_object_order_depends_target_Largest
+  DEP_FILE = CMakeFiles/Largest.dir/Array/largestElement.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Largest.dir
+  OBJECT_FILE_DIR = CMakeFiles/Largest.dir/Array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Largest
+
+
+#############################################
+# Link the executable Largest
+
+build Largest: CXX_EXECUTABLE_LINKER__Largest_Debug CMakeFiles/Largest.dir/Array/largestElement.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Largest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Largest
+  TARGET_PDB = Largest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Sorted
+
+
+#############################################
+# Order-only phony target for Sorted
+
+build cmake_object_order_depends_target_Sorted: phony || CMakeFiles/Sorted.dir
+
+build CMakeFiles/Sorted.dir/Array/Sorted.cpp.o: CXX_COMPILER__Sorted_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Array/Sorted.cpp || cmake_object_order_depends_target_Sorted
+  DEP_FILE = CMakeFiles/Sorted.dir/Array/Sorted.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Sorted.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sorted.dir/Array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sorted
+
+
+#############################################
+# Link the executable Sorted
+
+build Sorted: CXX_EXECUTABLE_LINKER__Sorted_Debug CMakeFiles/Sorted.dir/Array/Sorted.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Sorted.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Sorted
+  TARGET_PDB = Sorted.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Reverse
+
+
+#############################################
+# Order-only phony target for Reverse
+
+build cmake_object_order_depends_target_Reverse: phony || CMakeFiles/Reverse.dir
+
+build CMakeFiles/Reverse.dir/Array/Reversal.cpp.o: CXX_COMPILER__Reverse_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Array/Reversal.cpp || cmake_object_order_depends_target_Reverse
+  DEP_FILE = CMakeFiles/Reverse.dir/Array/Reversal.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Reverse.dir
+  OBJECT_FILE_DIR = CMakeFiles/Reverse.dir/Array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Reverse
+
+
+#############################################
+# Link the executable Reverse
+
+build Reverse: CXX_EXECUTABLE_LINKER__Reverse_Debug CMakeFiles/Reverse.dir/Array/Reversal.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Reverse.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Reverse
+  TARGET_PDB = Reverse.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binarySearch
+
+
+#############################################
+# Order-only phony target for binarySearch
+
+build cmake_object_order_depends_target_binarySearch: phony || CMakeFiles/binarySearch.dir
+
+build CMakeFiles/binarySearch.dir/Searching/BinarySearch.cpp.o: CXX_COMPILER__binarySearch_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Searching/BinarySearch.cpp || cmake_object_order_depends_target_binarySearch
+  DEP_FILE = CMakeFiles/binarySearch.dir/Searching/BinarySearch.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/binarySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles/binarySearch.dir/Searching
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binarySearch
+
+
+#############################################
+# Link the executable binarySearch
+
+build binarySearch: CXX_EXECUTABLE_LINKER__binarySearch_Debug CMakeFiles/binarySearch.dir/Searching/BinarySearch.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/binarySearch.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = binarySearch
+  TARGET_PDB = binarySearch.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_bin
+
+
+#############################################
+# Order-only phony target for test_bin
+
+build cmake_object_order_depends_target_test_bin: phony || CMakeFiles/test_bin.dir
+
+build CMakeFiles/test_bin.dir/Searching/Test.cpp.o: CXX_COMPILER__test_bin_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Searching/Test.cpp || cmake_object_order_depends_target_test_bin
+  DEP_FILE = CMakeFiles/test_bin.dir/Searching/Test.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test_bin.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_bin.dir/Searching
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_bin
+
+
+#############################################
+# Link the executable test_bin
+
+build test_bin: CXX_EXECUTABLE_LINKER__test_bin_Debug CMakeFiles/test_bin.dir/Searching/Test.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/test_bin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_bin
+  TARGET_PDB = test_bin.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BinarySearchRecursion
+
+
+#############################################
+# Order-only phony target for BinarySearchRecursion
+
+build cmake_object_order_depends_target_BinarySearchRecursion: phony || CMakeFiles/BinarySearchRecursion.dir
+
+build CMakeFiles/BinarySearchRecursion.dir/Searching/BinarySearchRecursion.cpp.o: CXX_COMPILER__BinarySearchRecursion_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Searching/BinarySearchRecursion.cpp || cmake_object_order_depends_target_BinarySearchRecursion
+  DEP_FILE = CMakeFiles/BinarySearchRecursion.dir/Searching/BinarySearchRecursion.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/BinarySearchRecursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/BinarySearchRecursion.dir/Searching
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BinarySearchRecursion
+
+
+#############################################
+# Link the executable BinarySearchRecursion
+
+build BinarySearchRecursion: CXX_EXECUTABLE_LINKER__BinarySearchRecursion_Debug CMakeFiles/BinarySearchRecursion.dir/Searching/BinarySearchRecursion.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/BinarySearchRecursion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = BinarySearchRecursion
+  TARGET_PDB = BinarySearchRecursion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SquareRoot
+
+
+#############################################
+# Order-only phony target for SquareRoot
+
+build cmake_object_order_depends_target_SquareRoot: phony || CMakeFiles/SquareRoot.dir
+
+build CMakeFiles/SquareRoot.dir/Searching/SquareRoot.cpp.o: CXX_COMPILER__SquareRoot_unscanned_Debug /Users/aravinth/Documents/CPP_Programs/Searching/SquareRoot.cpp || cmake_object_order_depends_target_SquareRoot
+  DEP_FILE = CMakeFiles/SquareRoot.dir/Searching/SquareRoot.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SquareRoot.dir
+  OBJECT_FILE_DIR = CMakeFiles/SquareRoot.dir/Searching
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SquareRoot
+
+
+#############################################
+# Link the executable SquareRoot
+
+build SquareRoot: CXX_EXECUTABLE_LINKER__SquareRoot_Debug CMakeFiles/SquareRoot.dir/Searching/SquareRoot.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/SquareRoot.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SquareRoot
+  TARGET_PDB = SquareRoot.dbg
 
 
 #############################################
@@ -198,7 +446,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aravinth/Documents/CPP_Programs/cmake-build-debug
 
-build all: phony CPP_Programs Array Praveen Recursion
+build all: phony CPP_Programs Array Recursion Hanoi SumOfDigits Largest Sorted Reverse binarySearch test_bin BinarySearchRecursion SquareRoot
 
 # =============================================================================
 # Built-in targets
